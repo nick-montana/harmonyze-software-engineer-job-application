@@ -1,0 +1,61 @@
+# ==============================================================================
+# Node.js & Dependencies
+# ==============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# ==============================================================================
+# Environment & Secrets (Crucial for ETL database credentials/API keys)
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# ==============================================================================
+# ETL Data / Local Storage (Never commit heavy or sensitive data dumps)
+# ==============================================================================
+# Ignore all raw, transformed, or target data files cached locally
+data/
+*.csv
+*.json
+*.xlsx
+*.xml
+*.sql
+*.parquet
+*.tsv
+*.avro
+
+# If you want to track a 'data' folder structure but not the files inside,
+# uncomment the next line and add a blank .gitkeep file inside the folder:
+# !data/.gitkeep
+
+# ==============================================================================
+# Logs & Monitoring
+# ==============================================================================
+logs/
+*.log
+etl-process.log
+
+# ==============================================================================
+# Build & TypeScript Outputs
+# ==============================================================================
+dist/
+build/
+out/
+.tsbuildinfo
+
+# ==============================================================================
+# IDE & System Files
+# ==============================================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
