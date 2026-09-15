@@ -22,12 +22,27 @@ TODO: Fill out this long description.
 
 ## Background
 
+![Job Description_databases](docs/pics/job_description_tools.png)
+
+### Deployable Assets
+
+
+
 ## Install
 
 ```sh
 ```
 
 ## Usage
+
+
+### Database Usage
+![Job Description_databases](docs/pics/database_job_description.png)
+
+This application uses Knex to manage and scale its SQL database. See its [official documentation](https://knexjs.org/guide/) for full usage details
+#### 
+Database schemas are scaled using [knex migrations](https://knexjs.org/guide/migrations.html) through its Command-Line-Interface
+
 
 ```sh
 ```
