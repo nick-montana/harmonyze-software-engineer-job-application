@@ -42,7 +42,14 @@ TODO: Fill out this long description.
 
 This application uses Knex to manage and scale its SQL database. See its [official documentation](https://knexjs.org/guide/) for full usage details
 #### 
+
+
 Database schemas are scaled using [knex migrations](https://knexjs.org/guide/migrations.html) through its Command-Line-Interface
+
+
+### Distributed Tracing Dashboard
+
+![distributed_tracing](docs/pics/distributed_tracing_dashboard.png)
 
 
 ```sh
