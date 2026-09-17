@@ -27,7 +27,6 @@ interface GitHubRepository {
     name: string;
     full_name: string;
     private: boolean;
-    owner: GitHubOwner;
     html_url: string;
     description: string | null;
     fork: boolean;
@@ -47,10 +46,8 @@ interface GitHubRepository {
     archived: boolean;
     disabled: boolean;
     open_issues_count: number;
-    license: GitHubLicense | null;
     visibility: "public" | "private" | "internal";
     default_branch: string;
-    permissions: GitHubRepoPermissions;
     topics: string[];
     allow_squash_merge: boolean;
     allow_merge_commit: boolean;
