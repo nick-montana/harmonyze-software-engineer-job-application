@@ -24,6 +24,11 @@ TODO: Fill out this long description.
 
 ![Job Description_databases](docs/pics/job_description_tools.png)
 
+### Showcase qualifications
+![Job Description_databases](docs/pics/database_job_description.png)
+(Greenspan, Senior Software Engineer, _What We're looking for_).
+
+
 ### Deployable Assets
 
 
@@ -37,8 +42,6 @@ TODO: Fill out this long description.
 
 
 ### Database Usage
-![Job Description_databases](docs/pics/database_job_description.png)
-(Greenspan, Senior Software Engineer, _What We're looking for_).
 
 This application uses Knex to manage and scale its SQL database. See its [official documentation](https://knexjs.org/guide/) for full usage details
 #### 
@@ -46,10 +49,9 @@ This application uses Knex to manage and scale its SQL database. See its [offici
 
 Database schemas are scaled using [knex migrations](https://knexjs.org/guide/migrations.html) through its Command-Line-Interface
 
-
-### Distributed Tracing Dashboard
-
-![distributed_tracing](docs/pics/distributed_tracing_dashboard.png)
+```
+knex migrate:make {your_file_name}
+```
 
 
 ```sh
